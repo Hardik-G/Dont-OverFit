@@ -12,16 +12,17 @@ https://www.kaggle.com/c/dont-overfit-ii/data
 
 <h3> Selecting a Classification Model: </h3>
 
-<strong> Let us try out a few Classification Models without any Dimensionality Reduction and select the best one for future experimentation. </strong>
+Let us try out a few Classification Models without any Dimensionality Reduction and select the best one for future experimentation.
 
 <ol>
 <li> Logistic Regression (Accuracy = 0.662) </li>
 <li> Support Vector Classifier (Accuracy = 0.663) </li>
 <li> Decision Tree Classifier (Accuracy = 0.562) </li>
 <li> Gaussian Naive Bayes Classifier (Accuracy = 0.611) </li>
+<li> Gaussian Process Classifier (Accuracy = 0.526) </li>
 </ol>
 
-<strong> NOTE: Python Implementation for the above can be found in the Classification Models Directory </strong>
+<stong> NOTE: </strong> Python Implementation for the above Classification Models can be found in the Classification Models Directory
 
 <h3> Dimensionality Reduction </h3>
 
