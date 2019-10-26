@@ -1,5 +1,0 @@
-1: Logistic Regression (Accuracy = 0.662)
-2: Support Vector Classifier (Accuracy = 0.663)
-3: Decision Tree Classifier (Accuracy = 0.562)
-4: Gaussian Naive Bayes Classifier (Accuracy = 0.611)
-5: Gaussian Process Classifier (Accuracy = 0.526)
