@@ -9,4 +9,5 @@ These are few of the Classification Models that we tried out and the Python Impl
 <li> Gaussian Naive Bayes Classifier (Accuracy = 0.611) </li>
 <li> Gaussian Process Classifier (Accuracy = 0.526) </li>
 <li> Random Forest Classifier (Accuracy = 0.553) </li>
+<li> AdaBoost Classifier (Accuracy = 0.636) </li>
 </ol>
