@@ -34,6 +34,7 @@ Let us try out a few Classification Models without any Dimensionality Reduction 
 <li> Gaussian Process Classifier (Accuracy = 0.526) </li>
 <li> Random Forest Classifier (Accuracy = 0.553) </li>
 <li> AdaBoost Classifier (Accuracy = 0.636) </li>
+<li> K Nearest Neighbours Classifier (Accuracy = 0.560) </li>
 </ol>
 
 <strong> NOTE: </strong> Python Implementation for the above Classification Models can be found in the [Classification Models](https://github.com/mayankagarwal44442/Dont-OverFit/tree/master/Classification%20Models) directory.
