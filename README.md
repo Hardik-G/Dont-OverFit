@@ -13,3 +13,5 @@ https://www.kaggle.com/c/dont-overfit-ii/data
 1: Logistic Regression without Dimensionality Reduction (Accuracy = 0.662)
 
 2: Support Vector Classifier without Dimensionality Reduction (Accuracy = 0.663)
+
+3: Decision Tree Classifier without Dimensionality Reduction (Accuracy = 0.562)
