@@ -8,10 +8,22 @@ https://www.kaggle.com/c/dont-overfit-ii/overview
 
 https://www.kaggle.com/c/dont-overfit-ii/data
 
-## Models Attempted
+## Experimentation
 
-1: Logistic Regression without Dimensionality Reduction (Accuracy = 0.662)
+### Selecting a Classification Model
 
-2: Support Vector Classifier without Dimensionality Reduction (Accuracy = 0.663)
+** Let us try out a few Classification Models without any Dimensionality Reduction and select the best one for future experimentation. **
+<ol>
+<li>Logistic Regression (Accuracy = 0.662)</li>
+<li>Support Vector Classifier (Accuracy = 0.663)</li>
+<li>Decision Tree Classifier (Accuracy = 0.562)</li>
+<li>Gaussian Naive Bayes Classifier (Accuracy = 0.611)</li>
+</ol>
 
-3: Decision Tree Classifier without Dimensionality Reduction (Accuracy = 0.562)
+** NOTE: Python Implementation for the above can be found in the Classification Models Directory **
+
+### Dimensionality Reduction
+
+Yet to be done.......
+
+
