@@ -7,4 +7,4 @@ https://www.kaggle.com/c/dont-overfit-ii/overview
 https://www.kaggle.com/c/dont-overfit-ii/data
 
 ##Models Attempted
-1: Logistic Regression with no Dimensionality Reduction (Accuracy = 0.662)
+1: Logistic Regression without Dimensionality Reduction (Accuracy = 0.662)
