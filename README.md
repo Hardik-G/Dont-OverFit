@@ -23,11 +23,11 @@ The dataset for the project can also be found in the [Datasets](https://github.c
 
 <h3> Literature Survey </h3>
 
-Literature Survey of this project can be found in the Literature Survey directory.
+Literature Survey of this project can be found in the [Literature Survey](https://github.com/mayankagarwal44442/Dont-OverFit/tree/master/Literature%20Survey) directory.
 
 <h3> Exploratory Data Analysis </h3>
 
-Exploratory Data Analysis of this project can be found in the Exploratory Data Analysis directory.
+Exploratory Data Analysis of this project can be found in the [Exploratory Data Analysis](https://github.com/mayankagarwal44442/Dont-OverFit/tree/master/Exploratory%20Data%20Analysis) directory.
 
 
 
