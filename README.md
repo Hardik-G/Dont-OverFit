@@ -1,29 +1,29 @@
-# Dont-Overfit
+<h1> Dont-Overfit </h1>
 
-## Like to Problem Statement:
+<h2> Like to Problem Statement: </h2>
 
 https://www.kaggle.com/c/dont-overfit-ii/overview
 
-## Link to Datasets:
+<h2> Link to Datasets: </h2>
 
 https://www.kaggle.com/c/dont-overfit-ii/data
 
-## Experimentation
+<h2> Experimentation: </h2>
 
-### Selecting a Classification Model
+<h3> Selecting a Classification Model: </h3>
 
-<strong>Let us try out a few Classification Models without any Dimensionality Reduction and select the best one for future experimentation.</strong>
+<strong> Let us try out a few Classification Models without any Dimensionality Reduction and select the best one for future experimentation. </strong>
 
 <ol>
-<li>Logistic Regression (Accuracy = 0.662)</li>
-<li>Support Vector Classifier (Accuracy = 0.663)</li>
-<li>Decision Tree Classifier (Accuracy = 0.562)</li>
-<li>Gaussian Naive Bayes Classifier (Accuracy = 0.611)</li>
+<li> Logistic Regression (Accuracy = 0.662) </li>
+<li> Support Vector Classifier (Accuracy = 0.663) </li>
+<li> Decision Tree Classifier (Accuracy = 0.562) </li>
+<li> Gaussian Naive Bayes Classifier (Accuracy = 0.611) </li>
 </ol>
 
-<strong>NOTE: Python Implementation for the above can be found in the Classification Models Directory</strong>
+<strong> NOTE: Python Implementation for the above can be found in the Classification Models Directory </strong>
 
-### Dimensionality Reduction
+<h3> Dimensionality Reduction </h3>
 
 Yet to be done.......
 
