@@ -27,7 +27,7 @@ Exploratory Data Analysis of this project can be found in the [Exploratory Data 
 Let us try out a few Classification Models without any Dimensionality Reduction and select the best one for future experimentation.
 
 <ol>
-<li> Logistic Regression (Accuracy = 0.662) </li>
+<li> Logistic Regression Classifier (Accuracy = 0.662) </li>
 <li> Support Vector Classifier (Accuracy = 0.663) </li>
 <li> Decision Tree Classifier (Accuracy = 0.562) </li>
 <li> Gaussian Naive Bayes Classifier (Accuracy = 0.611) </li>
@@ -35,6 +35,7 @@ Let us try out a few Classification Models without any Dimensionality Reduction 
 <li> Random Forest Classifier (Accuracy = 0.553) </li>
 <li> AdaBoost Classifier (Accuracy = 0.636) </li>
 <li> K Nearest Neighbours Classifier (Accuracy = 0.560) </li>
+<li> Artificial Neural Network Classifier (Accuracy = 0.667) </li>
 </ol>
 
 <strong> NOTE: </strong> Python Implementation for the above Classification Models can be found in the [Classification Models](https://github.com/mayankagarwal44442/Dont-OverFit/tree/master/Classification%20Models) directory.
