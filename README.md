@@ -22,6 +22,13 @@ Exploratory Data Analysis of this project can be found in the [Exploratory Data 
 
 <h2> Experimentation: </h2>
 
+<h3> Making sure the data is not sequential <h3>
+
+We know that each target depends on the 300 features corresponding to it, but since we are completely oblivious to origin of data, there is a possibility that the data may be sequential. That is, a row's output can depend on previous output. The result of this will change the way we look at data henceforth. For this purpose, we plot acf and pacf for target variable.
+
+The code and plot is available in the file Exploratory Data Analysis/Check_sequential. 
+The results state unequivocally that rows do not have autocorrelation, thus we can treat each row as independent of the other
+
 <h3> Selecting a Classification Model: </h3>
 
 Let us try out a few Classification Models without any Dimensionality Reduction and select the best one for future experimentation.
