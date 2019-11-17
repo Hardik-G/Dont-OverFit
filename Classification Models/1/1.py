@@ -3,8 +3,8 @@ import pandas as pd
 from sklearn.linear_model import LogisticRegression
 
 # Import training and testing data
-training = pd.read_csv('train.csv')
-testing = pd.read_csv('test.csv')
+training = pd.read_csv('../../Datasets/train.csv')
+testing = pd.read_csv('../../Datasets/test.csv')
 
 # Obtaining feature and target values of training data
 train_features = []
@@ -20,7 +20,7 @@ for i in range(1, 301):
 xtest = testing.iloc[:, test_features].values
 
 # Perform logistic regression to fit a model
-classifier = LogisticRegression(random_state = 0)
+classifier = LogisticRegression(random_state = 0, solver = "liblinear")
 classifier.fit(xtrain, ytrain)
 
 # Predict target values for test data

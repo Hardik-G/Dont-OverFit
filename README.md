@@ -22,12 +22,12 @@ Exploratory Data Analysis of this project can be found in the [Exploratory Data 
 
 <h2> Experimentation: </h2>
 
-<h3> Making sure the data is not sequential </h3>
+<h3> Making Sure that the Data is Not Sequential </h3>
 
-We know that each target depends on the 300 features corresponding to it, but since we are completely oblivious to origin of data, there is a possibility that the data may be sequential. That is, a row's output can depend on previous output. The result of this will change the way we look at data henceforth. For this purpose, we plot acf and pacf for target variable.
+We know that the target value for each data point depends on the 300 features associated with it. However, since the origin of the data is unknown, there is a possibility that the data may be sequential i.e. the current row's target value can depend on the target value of the previous row. This possibility cannot be ignored as it will change the way we look at data henceforth. To ensure that the data is not Sequential, we plot the ACF and PACF plots for target value.
 
-The code and plot is available in the file Exploratory Data Analysis/Check_sequential. 
-The results state unequivocally that rows do not have autocorrelation, thus we can treat each row as independent of the other
+The implementation for the same can be found in the [Exploratory Data Analysis](https://github.com/mayankagarwal44442/Dont-OverFit/tree/master/Exploratory%20Data%20Analysis) directory.
+The results state unequivocally, that rows do not have autocorrelation. Hence we conclude that the data is not Sequential ion nature and the target values for each data point are independent of one another.
 
 <h3> Selecting a Classification Model: </h3>
 

@@ -3,8 +3,8 @@ import pandas as pd
 from sklearn.neighbors import KNeighborsClassifier
 
 # Import training and testing data
-training = pd.read_csv('train.csv')
-testing = pd.read_csv('test.csv')
+training = pd.read_csv('../../Datasets/train.csv')
+testing = pd.read_csv('../../Datasets/test.csv')
 
 # Obtaining feature and target values of training data
 train_features = []
