@@ -8,16 +8,16 @@ testing = pd.read_csv('../../Datasets/test.csv')
 
 # Obtaining feature and target values of training data
 train_features = []
-for i in range(2, 302):
-	train_features.append(i)
-xtrain = training.iloc[:, train_features].values
-ytrain = training.iloc[:, 1].values
+for i in range(300):
+	train_features.append(str(i))
+xtrain = training[train_features]
+ytrain = training['target']
 
 # Obtaining feature values of testing data
 test_features = []
-for i in range(1, 301):
-	test_features.append(i)
-xtest = testing.iloc[:, test_features].values
+for i in range(300):
+	test_features.append(str(i))
+xtest = testing[test_features]
 
 # Perform logistic regression to fit a model
 classifier = AdaBoostClassifier(n_estimators=50, learning_rate=1)
