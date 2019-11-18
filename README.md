@@ -45,10 +45,18 @@ Let us try out a few Classification Models without any Dimensionality Reduction 
 <li> Artificial Neural Network Classifier (Accuracy = 0.667) </li>
 </ol>
 
+Based on the accuracy result, implementation complexity and training time of the above Classification Models, we decided to move ahead using the Logistic Regression Classifier for our further experimentation.
+
 <strong> NOTE: </strong> Python Implementation for the above Classification Models can be found in the [Classification Models](https://github.com/mayankagarwal44442/Dont-OverFit/tree/master/Classification%20Models) directory.
 
 <h3> Dimensionality Reduction </h3>
 
-Yet to be done.......
+Let us try out a few Dimensionality Reduction techniques to try and improve the accuracy of the result produced by the Logistic Regression Classifier.
 
+<ol>
+<li> Principle Component Analysis </li>
+<li> Singular Value Decomposition </li>
+<li> Lasso Regresiion </li>
+</ol>
 
+Based on the accuracy result and implementation complexity, Lasso Regression appears to be the best choice and the Results obtained by using Lasso Regression are satisfactory.
