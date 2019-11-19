@@ -52,3 +52,12 @@ Let us try out a few Classification Models without any Dimensionality Reduction 
 Yet to be done.......
 
 
+<h3> References </h3>
+
+* ACF and PACF: https://machinelearningmastery.com/gentle-introduction-autocorrelation-partial-autocorrelation/
+
+
+
+<h3> To Do </h3>
+
+*Correct all paths to datasets
