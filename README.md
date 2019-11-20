@@ -37,13 +37,13 @@ Let us try out a few Classification Models without any Dimensionality Reduction 
 <ol>
 <li> Logistic Regression Classifier (Accuracy = 0.662) </li>
 <li> Support Vector Classifier (Accuracy = 0.663) </li>
-<li> Decision Tree Classifier (Accuracy = 0.562) </li>
-<li> Gaussian Naive Bayes Classifier (Accuracy = 0.611) </li>
+<li> Decision Tree Classifier (Accuracy = 0.568) </li>
+<li> Gaussian Naive Bayes Classifier (Accuracy = 0.568) </li>
 <li> Gaussian Process Classifier (Accuracy = 0.526) </li>
-<li> Random Forest Classifier (Accuracy = 0.553) </li>
-<li> AdaBoost Classifier (Accuracy = 0.636) </li>
+<li> Random Forest Classifier (Accuracy = 0.542) </li>
+<li> AdaBoost Classifier (Accuracy = 0.542) </li>
 <li> K Nearest Neighbours Classifier (Accuracy = 0.560) </li>
-<li> Artificial Neural Network Classifier (Accuracy = 0.667) </li>
+<li> Artificial Neural Network Classifier (Accuracy = 0.660) </li>
 </ol>
 
 Based on the accuracy result, implementation complexity and training time of the above Classification Models, we decided to move ahead using the Logistic Regression Classifier for our further experimentation.
@@ -55,9 +55,8 @@ Based on the accuracy result, implementation complexity and training time of the
 Let us try out a few Dimensionality Reduction techniques to try and improve the accuracy of the result produced by the Logistic Regression Classifier.
 
 <ol>
-<li> Principle Component Analysis </li>
-<li> Singular Value Decomposition </li>
-<li> Lasso Regresiion </li>
+<li> Principle Component Analysis (Accuracy = 0.649) </li>
+<li> Lasso Regression (Accuracy = 0.848) </li>
 </ol>
 
 Based on the accuracy result and implementation complexity, Lasso Regression appears to be the best choice and the Results obtained by using Lasso Regression are satisfactory.
