@@ -32,4 +32,4 @@ for i in range(250, 20000):
 	id.append(i)
 result = {'id': id, 'target': ytest}
 result = pd.DataFrame(result)
-result.to_csv("Result.csv", index = False)
+result.to_csv("result.csv", index = False)

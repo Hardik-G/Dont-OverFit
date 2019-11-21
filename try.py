@@ -1,10 +1,10 @@
 # Import required modules
 import pandas as pd
-from sklearn.gaussian_process import GaussianProcessClassifier
+from sklearn.linear_model import LogisticRegression
 
 # Import training and testing data
-training = pd.read_csv('../../Datasets/train.csv')
-testing = pd.read_csv('../../Datasets/test.csv')
+training = pd.read_csv('Datasets/train.csv')
+testing = pd.read_csv('Datasets/test.csv')
 
 # Obtaining feature and target values of training data
 train_features = []
@@ -20,7 +20,7 @@ for i in range(300):
 xtest = testing[test_features]
 
 # Perform logistic regression to fit a model
-classifier = GaussianProcessClassifier()
+classifier = LogisticRegression(random_state = 0, solver = "liblinear", solver = 'l1')
 classifier.fit(xtrain, ytrain)
 
 # Predict target values for test data
