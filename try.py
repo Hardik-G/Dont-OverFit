@@ -20,7 +20,7 @@ for i in range(300):
 xtest = testing[test_features]
 
 # Perform logistic regression to fit a model
-classifier = LogisticRegression(random_state = 0, solver = "liblinear", solver = 'l1')
+classifier = LogisticRegression(random_state = 0, solver = "liblinear", penalty = 'l1')
 classifier.fit(xtrain, ytrain)
 
 # Predict target values for test data
@@ -33,3 +33,13 @@ for i in range(250, 20000):
 result = {'id': id, 'target': ytest}
 result = pd.DataFrame(result)
 result.to_csv("result.csv", index = False)
+
+
+important_features = []
+for i in range(len(classifier.coef_[0])):
+	if classifier.coef_[0][i] != 0:
+		important_features.append(i)
+
+important_features = {'features': important_features}
+important_features = pd.DataFrame(important_features)
+important_features.to_csv("imp_fea.csv", index = False)
