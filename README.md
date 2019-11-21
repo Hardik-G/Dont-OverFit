@@ -56,6 +56,7 @@ Let us try out a few Dimensionality Reduction techniques to try and improve the 
 
 <ol>
 <li> Principle Component Analysis (Accuracy = 0.649) </li>
+<li> Singular Value Decomposition (Accuracy = 0.724) </li>
 <li> Lasso Regression (Accuracy = 0.848) </li>
 </ol>
 

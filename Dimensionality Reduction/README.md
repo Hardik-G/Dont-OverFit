@@ -4,8 +4,8 @@ These are few of the Dimensionality Reduction techinques that were employed to t
 
 <ol>
 <li> Principle Component Analysis </li>
-<li> Singular Value Deconposition </li>
-<li> Lasso Regression </li>
+<li> Singular Value Deconposition (Accuracy: 0.724) </li>
+<li> Lasso Regression (Accuracy: 0.848) </li>
 </ol>
 
 Lasso Regression although heing a regularization technique can be be used for feature selection and dimensionality reduction as it has the tendency to eliminate the redundant features by assigning a zero value to the corresponding coefficient after regularization. This greatly improves the accuracy of out model as can be observed.
