@@ -2,7 +2,7 @@
 
 <h2> Final Submission </h2>
 
-The Final Submission of Dont Overfit! including all the codes complied in one Jupyter Notebook, Project Report and Presentation can be found in the [Final Code, Presentation and Report](https://github.com/mayankagarwal44442/Dont-OverFit/tree/master/Final%20Code,%20Presentation%20and%20Report) directory.
+The Final Submission of Dont Overfit! including all the codes complied in one Jupyter Notebook, Project Report and Presentation can be found in this directory.
 
 <h2> Presentation Video Link </h2>
 
