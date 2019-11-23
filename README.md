@@ -1,5 +1,13 @@
 <h1> Dont-Overfit </h1>
 
+<h2> Final Submission </h2>
+
+The Final Submission of Dont Overfit! including all the codes complied in one Jupyter Notebook, Project Report and Presentation can be foung in [this](https://github.com/mayankagarwal44442/Dont-OverFit/tree/master/Final%20Code,%20Presentation%20and%20Report) folder.
+
+<h2> Presentation Video Link </h2>
+
+The Final Video Recording of the Presentation can be found [here](https://youtu.be/n1qj-ji7kr0).
+
 <h2> Link to Problem Statement: </h2>
 
 [https://www.kaggle.com/c/dont-overfit-ii/overview](https://www.kaggle.com/c/dont-overfit-ii/overview)
@@ -63,12 +71,4 @@ Let us try out a few Dimensionality Reduction techniques to try and improve the 
 Based on the accuracy result and implementation complexity, Lasso Regression appears to be the best choice and the Results obtained by using Lasso Regression are satisfactory.
 
 <strong> NOTE: </strong> Python Implementation for the above Dimensionality Reduction Techniques can be found in the [Dimensionality Reduction](https://github.com/mayankagarwal44442/Dont-OverFit/tree/master/Dimensionality%20Reduction) directory.
-
-<h3> 3: References </h3>
-
-* ACF and PACF: https://machinelearningmastery.com/gentle-introduction-autocorrelation-partial-autocorrelation/
-
-<h3> 4: To Do </h3>
-
-* Correct all paths to datasets
 
