@@ -3,7 +3,7 @@
 These are few of the Dimensionality Reduction techinques that were employed to test the effectiveness in improving the accuracy of the predicted class labels after the selection of Logistic Regression as the final Classification Model and the Python Implementation for these can be found in the directories corresponding to their index numbers.
 
 <ol>
-<li> Principle Component Analysis </li>
+<li> Principle Component Analysis (Accuracy : 649) </li>
 <li> Singular Value Deconposition (Accuracy: 0.724) </li>
 <li> Lasso Regression (Accuracy: 0.848) </li>
 </ol>
